@@ -3,11 +3,11 @@
 # process
 #def c2f(c):
 #    return c * 9 / 5 + 32
-def f2c_raw(f):
+def f2c_raw(f): #ignore me
     return f - 32 * 5 / 9
 
-def f2c_op(f):
-    return (f - 32) * 5 / 9
+def f2c_op(f): #fix me 
+    return f - 32 * 5 / 9
 
 def main():
     f = 0           # input
